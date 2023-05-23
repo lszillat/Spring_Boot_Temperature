@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SchoolTempApplication {
+public class Spring_Boot_TemperatureApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SchoolTempApplication.class, args);
+		SpringApplication.run(Spring_Boot_TemperatureApplication.class, args);
 	}
 
 }
