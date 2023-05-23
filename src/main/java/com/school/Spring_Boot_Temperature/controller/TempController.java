@@ -1,6 +1,6 @@
-package com.TemperatureSchool.School.controller;
+package com.school.Spring_Boot_Temperature.controller;
 
-import com.TemperatureSchool.School.database.repository.TemperatureRepository;
+import com.school.Spring_Boot_Temperature.database.repository.TemperatureRepository;
 import lombok.AllArgsConstructor;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;

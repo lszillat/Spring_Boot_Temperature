@@ -1,4 +1,4 @@
-package com.TemperatureSchool.School.database.table;
+package com.school.Spring_Boot_Temperature.database.table;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

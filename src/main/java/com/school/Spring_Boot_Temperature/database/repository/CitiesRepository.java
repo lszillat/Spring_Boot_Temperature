@@ -1,6 +1,6 @@
-package com.TemperatureSchool.School.database.repository;
+package com.school.Spring_Boot_Temperature.database.repository;
 
-import com.TemperatureSchool.School.database.table.Cities;
+import com.school.Spring_Boot_Temperature.database.table.Cities;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 

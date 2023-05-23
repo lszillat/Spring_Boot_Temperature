@@ -1,4 +1,4 @@
-package com.TemperatureSchool.School;
+package com.school.Spring_Boot_Temperature;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
