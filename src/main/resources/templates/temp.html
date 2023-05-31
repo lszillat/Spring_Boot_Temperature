@@ -3,8 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <title>Temp</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-<p th:text="${temp}"></p>
+<table class="TempTable" id="TempTable">
+    <thead>
+        <tr>
+            <th scope="col">date</th>
+            <th scope="col">temperature</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr th:each="t: ${temp}">
+            <td th:text="${t.getDate()}"></td>
+            <td th:text="${t.getTemperature()}"></td>
+        </tr>
+    </tbody>
+</table>
 </body>
 </html>
